@@ -1,11 +1,11 @@
 Feature: Login
 
-
+@Smoke @Regression
 Scenario:
 Validate user is able to login using valid credentials
 
 
-Given Browser is open and URL is navigated
+Given browser is open and URL is navigated
 And Login page is displayed
 When user enters valid username and password
 And user clicks on login button
