@@ -4,6 +4,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 //Below program is for explaining 'Cucumber Runner class,Report generation'concepts
+
 /*
 @CucumberOptions(features = {"./src/test/java/features"},glue = {"stepDefinitions"},    //'stepDefinitions'===>Package name only need to keep here.
 plugin= {"html:Reports/CucumberReports.html",         //Cucumber has a builtin plugin,so need not add any extra Dependency or any Jar.All u have to do here is,u just have to provide 'plugin' along with 'html:' and 'Path of the Report'. 

@@ -1,4 +1,4 @@
-Feature: Login
+ Feature: Login
 
 @Smoke @Regression
 Scenario:
@@ -12,3 +12,6 @@ And user clicks on login button
 Then User should be successfully logged in
 And browser should close
 
+
+
+#AFTER RUN THIS FEATURE FILE AS CUCUMBER FEATURE,THEN WE WILL GET 'GLUE CODE' THAT NEEDS TO BE COPY&PASTE INSIDE FEATURE FILE
